@@ -22,7 +22,7 @@ public:
 	bool IsMovementPossible(int pX, int pY, int pPiece, int pRotation);
 	void StorePiece(int pX, int pY, int pPiece, int pRotation);
 	void DeletePossibleLines();
-	void IsGameOver();
+	bool IsGameOver();
 
 private:
 
