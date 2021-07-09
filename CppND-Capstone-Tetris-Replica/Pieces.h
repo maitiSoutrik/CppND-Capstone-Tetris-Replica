@@ -1,4 +1,7 @@
 // Declaring the Pieces class
+#ifndef _PIECES_
+#define _PIECES_
+
 
 class Pieces {
 public:
@@ -7,3 +10,4 @@ public:
 	int GetYInitialPosition(int pPiece, int pRotation);
 };
 
+#endif // _PIECES_

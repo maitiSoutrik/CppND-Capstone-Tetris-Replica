@@ -2,8 +2,16 @@
 #include "Game.h"
 
 // Constructor
-Game::Game(Board* pBoard, Pieces* pPieces, IO* pIO, int pScreenHeight):mBoard(pBoard),mPieces(pPieces)
-, mIO(pIO), mScreenHeight(pScreenHeight) {
+Game::Game(Board* pBoard, Pieces* pPieces, IO* pIO, int pScreenHeight): mScreenHeight(pScreenHeight), mBoard(pBoard),
+                                                                        mPieces(pPieces), mIO(pIO){
+//	mScreenHeight = pScreenHeight;
+
+	// Get the pointer to the Board and Pieces classes
+//	mBoard = pBoard;
+//	mPieces = pPieces;
+//	mIO = pIO;
+	
+	// Initialize the game
 	InitGame();
 }
 

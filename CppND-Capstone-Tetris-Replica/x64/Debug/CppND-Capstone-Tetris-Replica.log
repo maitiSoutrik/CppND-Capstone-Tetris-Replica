@@ -1,2 +1,7 @@
-﻿  Pieces.cpp
-  CppND-Capstone-Tetris-Replica.vcxproj -> C:\Users\smaiti\OneDrive - Qualcomm\Documents\git_repos\CppND-Capstone-Tetris-Replica\x64\Debug\CppND-Capstone-Tetris-Replica.exe
+﻿  Board.cpp
+  Game.cpp
+  main.cpp
+  Pieces.cpp
+  Generating Code...
+Game.obj : error LNK2019: unresolved external symbol "public: void __cdecl IO::DrawRectangle(int,int,int,int,enum color)" (?DrawRectangle@IO@@QEAAXHHHHW4color@@@Z) referenced in function "private: void __cdecl Game::DrawBoard(void)" (?DrawBoard@Game@@AEAAXXZ)
+C:\Users\smaiti\OneDrive - Qualcomm\Documents\git_repos\CppND-Capstone-Tetris-Replica\x64\Debug\CppND-Capstone-Tetris-Replica.exe : fatal error LNK1120: 1 unresolved externals
