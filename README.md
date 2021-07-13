@@ -12,3 +12,7 @@ Please follow as below :
 #### Basic Build Instructions
 1. Clone this repo using Visual Studio
 2. Build and run
+
+#### References :
+1. Followed this [tutorial](https://javilop.com/gamedev/tetris-tutorial-in-c-platform-independent-focused-in-game-logic-for-beginners/)
+2. Wikipedia article on [Tetris](https://en.wikipedia.org/wiki/Tetris)
